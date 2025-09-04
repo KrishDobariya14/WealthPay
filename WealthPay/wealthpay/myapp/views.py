@@ -160,7 +160,7 @@ def chatbox(request):
                 }, status=200)
 
             try:
-                genai.configure(api_key="AIzaSyCmmmNcaK9fmGTWEIvuuIIokxmto__uSms")
+                genai.configure(api_key="")
 
                 generation_config = {
                     "temperature": 0,
